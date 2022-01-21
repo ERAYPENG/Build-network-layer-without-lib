@@ -31,6 +31,7 @@ public enum HTTPTask {
     case requestParametersAndHeaders(bodyParameters: Parameters?,
                                      urlParameters: Parameters?,
                                      additionHeaders: HttpHeaders?)
+    // 可以加入其他如 download, upload
 }
 
 // ParameterEncoder 是一個函式，為參數進行編碼。當方法失敗時，它會顯示錯誤訊息，讓我們處理錯誤狀況。
